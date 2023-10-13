@@ -14,7 +14,7 @@
           />
         </a>
       </div>
-      <div class="flex lg:hidden">
+      <div class="flex">
         <a href="#" class="-m-1.5 p-1.5">
           <span class="sr-only">{{ company.name }}</span>
           <NuxtImg

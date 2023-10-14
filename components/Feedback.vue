@@ -22,7 +22,7 @@
       <div class="max-w-sm mx-auto">
         <p class="mt-6 text-center text-md leading-6 text-gray-600">
           Please give us feedback to win gifts including travel body wash, vegan
-          cook book, mini dove toy etc.
+          cook book, mini Dove toy etc.
         </p>
         <form>
           <div class="mt-8 space-y-8">
@@ -45,7 +45,7 @@
                       name="name"
                       id="name"
                       autocomplete="name"
-                      class="block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6"
+                      class="block text-center flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6"
                     />
                   </div>
                 </div>
@@ -63,7 +63,24 @@
                     name="email"
                     type="email"
                     autocomplete="email"
-                    class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                    class="block text-center w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                  />
+                </div>
+              </div>
+
+              <div class="mt-6">
+                <label
+                  for="postal-code"
+                  class="block text-center text-sm font-medium leading-6 text-gray-900"
+                  >ZIP / Postal code</label
+                >
+                <div class="mt-2">
+                  <input
+                    type="text"
+                    name="postal-code"
+                    id="postal-code"
+                    autocomplete="postal-code"
+                    class="block text-center w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                   />
                 </div>
               </div>

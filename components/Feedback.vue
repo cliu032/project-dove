@@ -127,7 +127,7 @@
                 <UButton label="Cancel" variant="outline" size="lg" block />
               </div>
               <div class="w-40">
-                <UButton label="Submit" type="submit" size="lg" block />
+                <SubmitButton />
               </div>
             </div>
           </div>

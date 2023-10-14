@@ -13,7 +13,7 @@
       </div>
       <div class="text-center">
         <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-          Dove for the Planet
+          Dove for the <span class="text-primary-600">Planet</span>
         </h1>
         <div class="mt-10 flex justify-center">
           <NuxtImg src="/img/PlanetDove.png" fit="contain" />
@@ -109,7 +109,7 @@
                           id="notification"
                           name="notification"
                           type="checkbox"
-                          class="h-4 w-4 rounded border-gray-300 text-primary-500 focus:ring-primary-500"
+                          class="h-4 w-4 rounded border-gray-300 text-primary-600 opacity-90 focus:ring-primary-600"
                         />
                       </div>
                       <div class="text-sm leading-6">
@@ -124,7 +124,13 @@
 
             <div class="mt-6 flex items-center justify-center gap-x-6">
               <div class="w-80">
-                <UButton type="submit" label="Submit" size="lg" block />
+                <UButton
+                  type="submit"
+                  label="Submit"
+                  size="lg"
+                  block
+                  class="bg-primary-600 opacity-90"
+                />
               </div>
             </div>
           </div>

@@ -9,7 +9,7 @@
           Do you know our planet - the Earth?
         </h2>
         <div class="mt-10 flex gap-x-6">
-          <UButton label="Quiz Time" size="lg" />
+          <UButton class="bg-primary-600 opacity-90" label="Quiz Time" size="lg" />
           <UButton
             label="Drawing Tips &rarr;"
             variant="link"

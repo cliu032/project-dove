@@ -53,9 +53,11 @@
           <h1
             class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl"
           >
-            Dove for the Planet
+            Dove for the <span class="text-primary-600">Planet</span>
           </h1>
-          <p class="mt-6 text-lg leading-8 text-gray-600">Planet or Plastic?</p>
+          <p class="mt-6 text-lg leading-8 text-gray-600">
+            <span class="text-primary-600">Planet</span> or Plastic?
+          </p>
           <p class="mt-4 text-lg leading-8 text-gray-600">
             While we all know the environment impact of plastic, we've been
             already implemented 100% PCR (post consumer recycled plastic) in
@@ -134,7 +136,7 @@ const preset = {
       wrapper:
         "absolute top-[4px] left-[4px] duration-200 ease-out focus:outline-none",
       base: "w-full h-full",
-      background: "bg-primary-500 dark:bg-gray-900",
+      background: "bg-primary-600 opacity-90 dark:bg-gray-900",
       rounded: "rounded-md",
       shadow: "shadow-sm",
     },

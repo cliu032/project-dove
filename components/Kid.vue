@@ -1,7 +1,7 @@
 <template>
   <div id="kids">
     <div
-      class="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-32 sm:px-6 sm:py-48 lg:max-w-7xl lg:grid-cols-2 lg:px-8 lg:py-56"
+      class="flex flex-wrap mx-auto max-w-2xl items-start justify-between gap-x-8 gap-y-8 px-4 py-32 sm:px-6 sm:py-48 lg:max-w-7xl lg:grid-cols-2 lg:px-8 lg:py-56"
     >
       <div>
         <p class="mt-6 text-lg leading-8 text-gray-600">Dove for Kids</p>
@@ -10,13 +10,11 @@
         </h2>
         <div class="mt-10 flex gap-x-6">
           <UButton label="Quiz Time" size="lg" />
-        </div>
-        <div class="mt-2">
           <UButton label="Drawing Tips &rarr;" variant="link" size="lg" />
         </div>
-        <div class="mt-4">
-          <NuxtImg src="/img/compost.jpeg" fit="contain" />
-        </div>
+      </div>
+      <div class="mx-auto">
+        <NuxtImg src="/img/compost.jpeg" fit="contain" />
       </div>
       <!-- <div class="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-8">
         <img

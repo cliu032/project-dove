@@ -18,7 +18,7 @@ function handleClose() {
           <div
             class="mx-auto flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-primary-100 sm:mx-0 sm:h-10 sm:w-10"
           >
-            <CheckIcon class="h-6 w-6 text-lime-600" aria-hidden="true" />
+            <CheckIcon class="h-6 w-6 text-primary-600" aria-hidden="true" />
           </div>
           <div class="mt-4 text-center">
             <DialogTitle
@@ -45,6 +45,7 @@ function handleClose() {
         variant="ghost"
         size="lg"
         block
+        class="text-primary-600"
         @click="handleClose"
       />
     </UCard>

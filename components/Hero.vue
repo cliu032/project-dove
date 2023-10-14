@@ -134,7 +134,7 @@ const preset = {
       wrapper:
         "absolute top-[4px] left-[4px] duration-200 ease-out focus:outline-none",
       base: "w-full h-full",
-      background: "bg-lime-500 dark:bg-gray-900",
+      background: "bg-primary-500 dark:bg-gray-900",
       rounded: "rounded-md",
       shadow: "shadow-sm",
     },

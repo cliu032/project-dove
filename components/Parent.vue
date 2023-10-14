@@ -44,8 +44,18 @@
       </div> -->
       </div>
       <div class="flex justify-center gap-x-6 mt-4">
-        <UButton label="Gardening Tips" variant="outline" size="lg" />
-        <UButton label="Vegan Recipe" variant="outline" size="lg" />
+        <UButton
+          label="Gardening Tips"
+          variant="outline"
+          size="lg"
+          class="text-primary-600"
+        />
+        <UButton
+          label="Vegan Recipe"
+          variant="outline"
+          size="lg"
+          class="text-primary-600"
+        />
       </div>
     </div>
   </div>

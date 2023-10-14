@@ -1,6 +1,17 @@
+<script setup>
+import { DialogTitle } from "@headlessui/vue";
+import { CheckIcon } from "@heroicons/vue/24/solid";
+
+defineProps(["open"]);
+const emit = defineEmits(["update:open"]);
+
+function handleClose() {
+  emit("update:open", false);
+}
+</script>
+
 <template>
-  <UButton label="Submit" size="lg" block @click="isOpen = true" />
-  <UModal v-model="isOpen">
+  <UModal v-bind:model-value="open" @close="handleClose">
     <UCard :ui="{ divide: 'divide-y divide-gray-100 dark:divide-gray-800' }">
       <div class="bg-white px-4 pb-4 pt-5 sm:p-6 sm:pb-4">
         <div class="flex flex-col items-center">
@@ -34,16 +45,8 @@
         variant="ghost"
         size="lg"
         block
-        @click="isOpen = false"
+        @click="handleClose"
       />
     </UCard>
   </UModal>
 </template>
-
-<script setup>
-import { ref } from "vue";
-import { DialogTitle } from "@headlessui/vue";
-import { CheckIcon } from "@heroicons/vue/24/solid";
-
-const isOpen = ref(false);
-</script>

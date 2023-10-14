@@ -24,7 +24,7 @@
           Please give us feedback to win gifts including travel body wash, vegan
           cook book, mini Dove toy etc.
         </p>
-        <form>
+        <form @submit.prevent="handleSubmit">
           <div class="mt-8 space-y-8">
             <div class="max-w-sm mx-auto flex flex-col items-stretch">
               <h2 class="text-center font-semibold leading-7 text-gray-900">
@@ -123,11 +123,8 @@
             </div>
 
             <div class="mt-6 flex items-center justify-center gap-x-6">
-              <div class="w-40">
-                <UButton label="Cancel" variant="outline" size="lg" block />
-              </div>
-              <div class="w-40">
-                <SubmitButton />
+              <div class="w-80">
+                <UButton type="submit" label="Submit" size="lg" block />
               </div>
             </div>
           </div>
@@ -135,4 +132,15 @@
       </div>
     </div>
   </UContainer>
+  <SubmitButton v-model:open="isOpen" />
 </template>
+
+<script setup>
+import { ref } from "vue";
+
+const isOpen = ref(false);
+
+function handleSubmit() {
+  isOpen.value = true;
+}
+</script>

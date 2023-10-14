@@ -35,7 +35,7 @@
             class="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20"
           >
             Announcing our next initiative.
-            <a href="#hero" class="font-semibold text-indigo-600">
+            <a href="#hero" class="font-semibold text-primary-600">
               <span class="absolute inset-0" aria-hidden="true" />
               Read more
               <span aria-hidden="true">&rarr;</span>
@@ -48,10 +48,16 @@
           >
             Dove for the Planet
           </h1>
-          <p class="mt-6 text-lg leading-8 text-gray-600">
-            Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-            lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-            fugiat aliqua.
+          <p class="mt-6 text-lg leading-8 text-gray-600">Planet or Plastic?</p>
+          <p class="mt-4 text-lg leading-8 text-gray-600">
+            While we all know the environment impact of plastic, we've been
+            already implemented 100% PCR (post consumer recycled plastic) in
+            most of our products, but every year there is still 85% of plastic
+            ending their life in landfill in Australia.
+          </p>
+          <p class="mt-4 text-lg leading-8 text-gray-600">
+            We've created a planet-saving solution with our new plant-based
+            bottles for the 100% vegan formulation.
           </p>
           <div class="mt-10 flex justify-center">
             <NuxtImg

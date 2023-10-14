@@ -14,6 +14,5 @@ export default defineAppConfig({
         color: "lime",
       },
     },
-    safelistColors: ["orange", "lime"],
   },
 });

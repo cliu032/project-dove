@@ -3,6 +3,7 @@
     <Hero />
     <Kid />
     <Parent />
+    <Feedback />
   </div>
 </template>
 

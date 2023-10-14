@@ -1,3 +1,3 @@
 <template>
-  <!-- <UContainer>Footer</UContainer> -->
+  <UContainer class="mb-40"></UContainer>
 </template>

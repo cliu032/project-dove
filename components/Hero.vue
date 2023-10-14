@@ -43,6 +43,13 @@
           </div>
         </div>
         <div id="hero" class="text-center scroll-mt-16">
+          <div class="my-20 flex justify-center">
+            <NuxtImg
+              src="/img/earth.png"
+              fit="contain"
+              style="max-width: 60vw; max-height: 60vh"
+            />
+          </div>
           <h1
             class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl"
           >
@@ -60,11 +67,7 @@
             bottles for the 100% vegan formulation.
           </p>
           <div class="mt-10 flex justify-center">
-            <NuxtImg
-              src="/img/earth.png"
-              fit="contain"
-              style="max-width: 60vw; max-height: 60vh"
-            />
+            <NuxtImg src="/img/PlanetDove.png" fit="contain" />
           </div>
           <div class="mt-12">
             <UTabs v-model="selected" :items="items" :ui="preset" />
